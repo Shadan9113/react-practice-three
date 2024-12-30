@@ -1,0 +1,60 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  /* Light Theme */
+  .header.light, .content.light {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .header.light .toggle-btn {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Dark Theme */
+  .header.dark, .content.dark {
+    background-color: #333;
+    color: #f9f9f9;
+  }
+  
+  .header.dark .toggle-btn {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header Styling */
+  header {
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toggle-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .toggle-btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* Content Styling */
+  main {
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
